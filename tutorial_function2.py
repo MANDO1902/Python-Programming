@@ -43,7 +43,7 @@ while(polygon!="exit"):
         porperty=input("Enter the type of property:")
         print(property)
         if(property=="area"):
-            print("abc")
+            print(area_rectangle(l,b))
         elif(property=="perimeter"):
             print(peri_rectangle(l,b))  
 
